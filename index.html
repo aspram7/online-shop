@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Book shop</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-top-area">
+                <div class="container h-100 d-flex">
+                    <div class="row">
+                        <div class="languages-div h-100 d-flex align-items-center">
+                            <div class="language small">
+                                <div>
+                                    <img class="image mr-2" src="images/languages/armenian-flag.jpg" alt="armenian-flag" />
+                                    <p class="main-language">Հայերեն</p>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="languages-box">
+                                <div class="language small" key="0">
+                                    <div>
+                                        <img class="image mr-1" src="images/languages/armenian-flag.jpg" alt="armenian-flag" />
+                                        <p>Հայերեն</p>
+                                    </div>
+                                </div>
+                                <div class="language small" key="1">
+                                    <div>
+                                        <img class="image mr-1" src="images/languages/russian-flag.jpg" alt="russian-flag" />
+                                        <p>Русский</p>
+                                    </div>
+                                </div>
+                                <div class="language small" key="2">
+                                    <div>
+                                        <img
+                                            class="image mr-1"
+                                            src="images/languages/the-united-kingdom-flag.jpg"
+                                            alt="the-united-kingdom-flag"
+                                        />
+                                        <p>English</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-right-corner">
+                            <div class="my-account">
+                                <p>My Account</p>
+                            </div>
+                            <div class="sign-in">
+                                <p>Sign In</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-mid-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="search-form">
+                            <input type="text" placeholder="Փնտրել..." />
+                            <div class="search-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="main-logo">
+                            <img src="./images/logo/logo.png" alt="" />
+                        </div>
+                        <div class="my-cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            MY CART
+                            <div class="count">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-area">
+                <div class="container h-100 d-flex">
+                    <div class="menu">
+                        <div class="menu-items active-menu-item">HOME</div>
+                        <div class="menu-items books">
+                            BOOKS
+                            <i class="fa fa-angle-down"></i>
+                            <div class="submenu">
+                                <div>Fiction</div>
+                                <div>Non-Fiction</div>
+                                <div>Books in Russian</div>
+                                <div>Books in English</div>
+                            </div>
+                        </div>
+                        <div class="menu-items">
+                            eBOOKS
+                        </div>
+                        <div class="menu-items">
+                            AUDIO BOOKS
+                        </div>
+                        <div class="menu-items blog">
+                            BLOG
+                            <i class="fa fa-angle-down"></i>
+                            <div class="submenu">
+                                <div>News</div>
+                                <div>Recommends</div>
+                            </div>
+                        </div>
+                        <div class="menu-items gift">
+                            GIFT
+                            <i class="fa fa-angle-down"></i>
+                            <div class="submenu">
+                                <div>Gift Card</div>
+                                <div>Creative Gift</div>
+                            </div>
+                        </div>
+                        <div class="menu-items sale">
+                            SALE
+                            <i class="fa fa-angle-down"></i>
+                            <div class="submenu">
+                                <div>Books</div>
+                                <div>eBooks</div>
+                                <div>Audio Books</div>
+                                <div>Gift</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+            <div class="banner-area">
+                <div class="container h-100 d-flex">
+                    <div class="banner">
+                        <div>
+                            <img src="./images/png/1.png" alt="" />
+                            <div>
+                                <h4 class="">Money back guarantee</h4>
+                                <p>100% money back guarante</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./images/png/2.png" alt="" />
+                            <div><h4>Cash on delivery</h4></div>
+                        </div>
+                        <div>
+                            <img src="./images/png/3.png" alt="" />
+                            <div>
+                                <h4 class="">Help & Support</h4>
+                                <p>100% money back guarante</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-area">
+                <div class="owl-carousel owl-carousel-1 owl-slider">
+                    <div class="item-slide">
+                        <img src="./images/slide/1.jpg" alt="" />
+                    </div>
+                    <div class="item-slide">
+                        <img src="./images/slide/2.jpg" alt="" />
+                    </div>
+                    <div class="item-slide">
+                        <img src="./images/slide/3.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="animation">
+                    <p>Huge Sale</p>
+                    <button>Shop now</button>
+                </div>
+            </div>
+
+            <div class="product-area">
+                <div class="container h-100 d-flex justify-content-center">
+                    <div class="section-product">
+                        <div class="section-head">
+                            <h1>TOP INTERESTING</h1>
+                            <p>
+                            Browse the collection of our best selling and top interesting products. </br>
+                            You are definitely find what you are looking for...
+                            </p>
+                        </div>
+                        <div class="product-menu">
+                            <div>NEW ARRIVAL</div>
+                            <div>ONSALE</div>
+                            <div>FEATURED PRODUCTS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="container h-100 d-flex justify-content-center">
+                <div class="owl-carousel owl-carousel-2 owl-product">
+                   <div class="product-wrapper">
+                    <div class="item-book">
+                        <img src="./images/items/100_biznes_gaghtniqner-1000x1000.jpg" alt="" />
+                        <div class="quick-view">
+                            <div class="action-view">
+                                <i class="fa fa-search-plus"></i>
+                            </div>   
+                        </div>
+                        <div class="product-flag">
+                            <div class="sale">NEW</div>
+                            <div class="discount-percentage">-5%</div>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                            <div class="star">
+                               <div class="product-rating">
+                                 <ul>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                 </ul>
+                                </div>
+                            </div>
+                            <div class="product-name">
+                                    <p>100 Business secrets</p>
+                                </div>
+                                <div class="product-price">
+                                    <p>8900 AMD</p> 
+                                </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <i class="fa fa-shopping-cart"></i>
+                                <p>Add to cart</p>
+                            </div>
+                            <div class="add-to-link">
+                                <i class="fa fa-external-link"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-book">
+                        <img src="./images/items/1_ejanoc_marketingayin_plan-1000x1000.jpg" alt="" />
+                        <div class="quick-view">
+                            <i class="fa fa-search-plus"></i>
+                    </div>
+                    </div>
+                    <div class="item-book">
+                        <img src="./images/items/7_sovorutyunnery_soft_cover-1000x1000.jpg" alt="" />
+                        <div class="quick-view">
+                            <i class="fa fa-search-plus"></i>
+                    </div>
+                    </div>
+                    <div class="item-book">
+                        <img src="./images/items/AGATHA_CHRISTIE_AND THEN_THERE_WERE_NONE-1000x1000.jpg" alt="" />
+                        <div class="quick-view">
+                            <i class="fa fa-search-plus"></i>
+                    </div>
+                    </div>
+                    <div class="item-book">
+                        <img src="./images/items/Alice_in_Wonderland-1000x1000.jpg" alt="" />
+                        <div class="quick-view">
+                            <i class="fa fa-search-plus"></i>
+                    </div>
+                    </div>
+                    <div class="item-book">
+                        <img src="./images/items/all_quiet_on_the_western_front-1000x1000.jpg" alt="" />
+                        <div class="quick-view">
+                            <i class="fa fa-search-plus"></i>
+                    </div>
+                    </div>
+                    <div class="item-book">
+                        <img src="./images/items/Antipolitical_Samvelyan-1000x1000.jpg" alt="" />
+                        <div class="quick-view">
+                            <i class="fa fa-search-plus"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-area-5">
+            <div class="container">
+                <div class="banner-general">
+                <div class="banner-image">
+                    <img src="./images/banner-area-5/1.jpg" alt="">
+                </div>
+                <div class="banner-text">
+                    <h3>Vahagn Dilbaryan "100 Business secrets"</h3>
+                    <h2>SALE UP TO 30% OFF</h4>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="bestseller-area">
+            <div class="container">
+                <div class="bestseller-row">
+                    <div class="bestseller-content">
+                        <h4>AUTHOR BEST SELLING</h4>
+                        <h1>J. K.</br>
+                            Rowling</h1>
+                        <p class="categories">CATEGORIES: BOOKS, AUDIOBOOKS</p>
+                        <p class="bestseller-text">Vestibulum porttitor iaculis gravida. Praesent vestibulum varius placerat. Cras tempor congue neque, id aliquam orci finibus sit amet.
+                            Fusce at facilisis arcu. Donec aliquet nulla id turpis semper, a bibendum metus vulputate. Suspendisse potenti.</p>
+                        <div class="social-author">
+                            <span><i class="fa fa-facebook"></i></span>
+                            <span><i class="fa fa-twitter"></i></span>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <img src="./images/bestseller-img/6.jpg" alt="">
+                    </div>
+                    <div class="owl-carousel owl-carousel-3 owl-slider">
+                        <div class="bestseller-total">
+                            <div class="single-bestseller">
+                                <div class="bestseller-img">
+                                    <img src="./images/items/100_biznes_gaghtniqner-1000x1000.jpg" alt="">
+                                    <div class="product-flag">
+                                        <div class="sale">NEW</div>
+                                        <div class="discount-percentage">-5%</div>
+                                    </div>
+                                </div>
+                                <div class="bestseller-text">
+                                    <p>100 Business secrets</p>
+                                    <div class="price">
+                                        <span class="new-price">8 000 AMD</span>
+                                        <span class="old-price">10 000 AMD</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-bestseller bestseller-flag">
+                                <div class="bestseller-img">
+                                    <img src="./images/items/100_biznes_gaghtniqner-1000x1000.jpg" alt="">
+                                    <div class="product-flag">
+                                        <div class="sale">NEW</div>
+                                        <div class="discount-percentage">-5%</div>
+                                    </div>
+                                </div>
+                                <div class="bestseller-text">
+                                    <p>100 Business secrets</p>
+                                    <div class="price">
+                                        <span class="new-price">8 000 AMD</span>
+                                        <span class="old-price">10 000 AMD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestseller-total">
+                            <div class="single-bestseller">
+                                <div class="bestseller-img">
+                                    <img src="./images/items/100_biznes_gaghtniqner-1000x1000.jpg" alt="">
+                                    <div class="product-flag">
+                                        <div class="sale">NEW</div>
+                                        <div class="discount-percentage">-5%</div>
+                                    </div>
+                                </div>
+                                <div class="bestseller-text">
+                                    <p>100 Business secrets</p>
+                                    <div class="price">
+                                        <span class="new-price">8 000 AMD</span>
+                                        <span class="old-price">10 000 AMD</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-bestseller bestseller-flag">
+                                <div class="bestseller-img">
+                                    <img src="./images/items/100_biznes_gaghtniqner-1000x1000.jpg" alt="">
+                                    <div class="product-flag">
+                                        <div class="sale">NEW</div>
+                                        <div class="discount-percentage">-5%</div>
+                                    </div>
+                                </div>
+                                <div class="bestseller-text">
+                                    <p>100 Business secrets</p>
+                                    <div class="price">
+                                        <span class="new-price">8 000 AMD</span>
+                                        <span class="old-price">10 000 AMD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestseller-total">
+                            <div class="single-bestseller">
+                                <div class="bestseller-img">
+                                    <img src="./images/items/100_biznes_gaghtniqner-1000x1000.jpg" alt="">
+                                    <div class="product-flag">
+                                        <div class="sale">NEW</div>
+                                        <div class="discount-percentage">-5%</div>
+                                    </div>
+                                </div>
+                                <div class="bestseller-text">
+                                    <p>100 Business secrets</p>
+                                    <div class="price">
+                                        <span class="new-price">8 000 AMD</span>
+                                        <span class="old-price">10 000 AMD</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-bestseller bestseller-flag">
+                                <div class="bestseller-img">
+                                    <img src="./images/items/100_biznes_gaghtniqner-1000x1000.jpg" alt="">
+                                    <div class="product-flag">
+                                        <div class="sale">NEW</div>
+                                        <div class="discount-percentage">-5%</div>
+                                    </div>
+                                </div>
+                                <div class="bestseller-text">
+                                    <p>100 Business secrets</p>
+                                    <div class="price">
+                                        <span class="new-price">8 000 AMD</span>
+                                        <span class="old-price">10 000 AMD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        
+        <script src="./script.js"></script>
+        <script src="./libs/owlcarousel/owl.carousel.min.js"></script>
+    </body>
+</html>
