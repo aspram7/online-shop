@@ -205,7 +205,8 @@ h6 {
 .menu-area {
     background-color: black;
     height: 50px;
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 8;
 }
 
@@ -921,8 +922,12 @@ i {
 }
 
 /*-----------------------------bestseller area----------------------*/
+.bestseller-area {
+    margin-bottom: 100px;
+}
 .bestseller-row {
     display: flex;
+    width: 100%;
 }
 
 .bestseller-content {
@@ -1046,7 +1051,6 @@ i {
     text-decoration: line-through;
 }
 
-
 .owl-carousel-3 .owl-nav button {
     width: 69px;
     height: 69px;
@@ -1060,12 +1064,12 @@ i {
 }
 
 .owl-carousel-3 .owl-nav button.owl-prev {
-    left: 10;
+    left: 10px;
 }
 
 .owl-carousel-3 .owl-nav button.owl-next {
     left: auto;
-    right: 10;
+    right: 10px;
 }
 
 .owl-carousel-3 .owl-nav button:hover {
@@ -1073,12 +1077,13 @@ i {
 }
 
 .owl-carousel-3 .owl-nav button span {
-    font-size: 50px;
+    font-size: 70px;
     color: #666;
     width: 100%;
     height: 100%;
     position: relative;
-    top: -10px;
+    top: -26px;
+    transition: all 0.3s linear;
 }
 
 .owl-carousel-3 .owl-nav button:hover span {
@@ -1095,4 +1100,126 @@ i {
 
 .owl-carousel-3:hover .owl-nav button.owl-next {
     right: -40px;
+}
+
+/*-----------------banner-static-area---------------*/
+
+.banner-static-area {
+    background: url(./images/banner-area/2.jpg) no-repeat;
+    height: auto;
+    padding: 100px 0;
+}
+
+.banner-shadow-hover {
+    /* padding-left: 15px; */
+    position: relative;
+    cursor: pointer;
+}
+
+.banner-shadow-hover:first-child {
+    margin-right: 15px;
+}
+
+.banner-shadow-hover:last-child {
+    margin-left: 15px;
+}
+
+.banner-shadow-hover::after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 300ms ease-in 0s;
+}
+
+.banner-shadow-hover:hover::after {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.7) inset;
+    transition: all 300ms ease-in 0s;
+}
+
+.banner-shadow-hover > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-book {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+}
+
+.banner-book > img {
+    width: 65%;
+    height: auto;
+}
+
+.banner-book-text {
+    text-align: right;
+    margin-left: 10px;
+}
+
+.banner-book-text > p {
+    color: rgb(119, 119, 119);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.banner-book-text > h1 {
+    font-family: "Rufina", serif;
+    font-size: 39px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.banner-book-price {
+    display: flex;
+    margin-top: 40px;
+}
+
+.banner-book-price .book-price p {
+    color: #909090;
+    font-family: "Rufina", serif;
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.banner-book-price .book-price h3 {
+    color: #f07c29;
+    font-family: "Rufina", serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.banner-book-price .book-sale {
+    background-color: rgb(255, 195, 31);
+    border-radius: 4px;
+    margin: 5px 0 0 10px;
+    height: 45px;
+}
+
+.banner-book-price .book-sale > p {
+    color: white;
+    font-size: 25px;
+    font-family: "Rufina", serif;
+    padding: 4px;
+}
+
+.banner-book-shop-now {
+    margin-top: 100px;
+}
+.banner-book-shop-now > p {
+    text-decoration: underline;
+    color: #9e9d9d;
+    font-family: "Rufina", serif;
+    font-size: 20px;
 }
