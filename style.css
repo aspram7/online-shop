@@ -167,6 +167,14 @@ h6 {
     cursor: pointer;
 }
 
+.search-link i {
+    color: white;
+}
+
+.search-link:hover {
+    background-color: black;
+}
+
 .main-logo {
     width: 245px;
     height: 70px;
@@ -178,6 +186,14 @@ h6 {
     position: relative;
     height: 54px;
     color: #444444;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.my-cart:hover,
+.my-cart:hover .fa-shopping-cart {
+    color: #f07c29;
+    
 }
 
 .my-cart .fa-shopping-cart {
@@ -833,7 +849,7 @@ h6 {
 }
 
 .product-link p,
-i {
+.product-link i {
     font-size: 16px;
     text-transform: capitalize;
     font-family: "Rufina", serif;
@@ -1155,7 +1171,7 @@ i {
 
 .banner-book > img {
     width: 65%;
-    height: auto;
+    object-fit: cover;
 }
 
 .banner-book-text {
@@ -1222,4 +1238,10 @@ i {
     color: #9e9d9d;
     font-family: "Rufina", serif;
     font-size: 20px;
+}
+
+/*----------------------most-product-area----------------------*/
+
+.most-product-area {
+    margin-top: 100px;
 }
