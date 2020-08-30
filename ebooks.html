@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Book shop</title>
+        <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/css/all.css" />
+        <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="media.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-top-area">
+                <div class="container h-100 d-flex">
+                    <div class="row">
+                        <div class="languages-div h-100 d-flex align-items-center">
+                            <div class="language small">
+                                <div>
+                                    <img class="image mr-2" src="images/languages/armenian-flag.jpg" alt="armenian-flag" />
+                                    <p class="main-language">Հայերեն</p>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="languages-box">
+                                <div class="language small" key="0">
+                                    <div>
+                                        <img class="image mr-1" src="images/languages/armenian-flag.jpg" alt="armenian-flag" />
+                                        <p>Հայերեն</p>
+                                    </div>
+                                </div>
+                                <div class="language small" key="1">
+                                    <div>
+                                        <img class="image mr-1" src="images/languages/russian-flag.jpg" alt="russian-flag" />
+                                        <p>Русский</p>
+                                    </div>
+                                </div>
+                                <div class="language small" key="2">
+                                    <div>
+                                        <img
+                                            class="image mr-1"
+                                            src="images/languages/the-united-kingdom-flag.jpg"
+                                            alt="the-united-kingdom-flag"
+                                        />
+                                        <p>English</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-right-corner">
+                            <div class="my-account">
+                                <a href="my-account.html">My Account</a>
+                            </div>
+                            <div class="sign-in">
+                                <a href="login.html">Sign In</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-mid-area">
+                <div class="container h-100 d-flex">
+                    <div class="row">
+                        <div class="search-form">
+                            <input type="text" placeholder="Փնտրել..." />
+                            <div class="search-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="main-logo">
+                            <img src="./images/logo/logo.png" alt="" />
+                        </div>
+                        <div class="my-cart-count">
+                            <div>
+                                <div class="my-cart-sub">
+                                    <div class="my-count">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <div class="count">1</div>
+                                    </div>
+                                    <div class="my-cart">
+                                        <p>MY CART</p>
+                                    </div>
+                                </div>
+                                <div class="mini-cart-sub">
+                                    <div class="cart-product">
+                                        <div class="single-cart">
+                                            <div class="cart-img">
+                                                <img src="./images/items/haghtakan_kamar_web-1000x1000.jpg" alt="" />
+                                            </div>
+                                            <div class="cart-info">
+                                                <h5>Arch of Triumph</h5>
+                                                <p>1 x 5900 AMD</p>
+                                            </div>
+                                            <div class="cart-icon">
+                                                <i class="fa fa-remove"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-totals">
+                                        <h5>total</h5>
+                                        <p>5900 AMD</p>
+                                    </div>
+                                    <div class="cart-button">
+                                        <a href="">view cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu-area">
+            <div class="container h-100 d-flex">
+                <div class="menu">
+                    <div class="menu-items active-menu-item">
+                        <div class="menu-items-sub" onclick="funcHome()">
+                            <p>HOME</p>
+                        </div>
+                    </div>
+                    <div class="menu-items books">
+                        <div class="menu-items-sub" onclick="func()">
+                            <p>BOOKS</p>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div>Fiction</div>
+                            <div>Non-Fiction</div>
+                            <div>Books in Russian</div>
+                            <div>Books in English</div>
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-items-sub" onclick="func()">
+                            <p>eBOOKS</p>
+                        </div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-items-sub" onclick="func()">
+                            <p>AUDIO BOOKS</p>
+                        </div>
+                    </div>
+                    <div class="menu-items blog">
+                        <div class="menu-items-sub" onclick="func()">
+                            <p>BLOG</p>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div>News</div>
+                            <div>Recommends</div>
+                        </div>
+                    </div>
+                    <div class="menu-items gift">
+                        <div class="menu-items-sub" onclick="func()">
+                            <p>GIFT</p>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div>Gift Card</div>
+                            <div>Creative Gift</div>
+                        </div>
+                    </div>
+                    <div class="menu-items sale">
+                        <div class="menu-items-sub" onclick="func()">
+                            <p>SALE</p>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div>Books</div>
+                            <div>eBooks</div>
+                            <div>Audio Books</div>
+                            <div>Gift</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu-area">
+            <div class="container h-100 d-flex">
+                <div class="mobile-menu">
+                    <div class="mean-bar">
+                        <p>menu</p>
+                        <div class="menu-hamburger">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </div>
+                    <div class="mean-nav">
+                        <div class="menu-hamburger-nav">
+                            <div class="menu-items-mobile">
+                                <div class="menu-items-mobile-nav">
+                                    <p class="a">HOME</p>
+                                </div>
+                            </div>
+                            <div class="menu-items-mobile books">
+                                <div class="menu-items-mobile-nav">
+                                    <p>BOOKS</p>
+                                    <span class="menu-items-toggle books"></span>
+                                </div>
+                                <div class="submenu-mobile books">
+                                    <div>Fiction</div>
+                                    <div>Non-Fiction</div>
+                                    <div>Books in Russian</div>
+                                    <div>Books in English</div>
+                                </div>
+                            </div>
+                            <div class="menu-items-mobile">
+                                <div class="menu-items-mobile-nav">
+                                    <p>eBOOKS</p>
+                                </div>
+                            </div>
+                            <div class="menu-items-mobile">
+                                <div class="menu-items-mobile-nav">
+                                    <p>AUDIO BOOKS</p>
+                                </div>
+                            </div>
+                            <div class="menu-items-mobile blog">
+                                <div class="menu-items-mobile-nav">
+                                    <p>BLOG</p>
+                                    <span class="menu-items-toggle blog"></span>
+                                </div>
+                                <div class="submenu-mobile blog">
+                                    <div>News</div>
+                                    <div>Recommends</div>
+                                </div>
+                            </div>
+                            <div class="menu-items-mobile gift">
+                                <div class="menu-items-mobile-nav">
+                                    <p>GIFT</p>
+                                    <span class="menu-items-toggle gift"></span>
+                                </div>
+                                <div class="submenu-mobile gift">
+                                    <div>Gift Card</div>
+                                    <div>Creative Gift</div>
+                                </div>
+                            </div>
+                            <div class="menu-items-mobile sale">
+                                <div class="menu-items-mobile-nav">
+                                    <p>SALE</p>
+                                    <span class="menu-items-toggle sale"></span>
+                                </div>
+                                <div class="submenu-mobile sale">
+                                    <div>Books</div>
+                                    <div>eBooks</div>
+                                    <div>Audio Books</div>
+                                    <div>Gift</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-account-login-area">
+            <div class="container h-100 d-flex">
+                <div class="my-account-menu">books</div>
+            </div>
+        </div>
+
+        <div class="product-main-area">
+            <div class="container h-100 d-flex">
+                <div class="module-categories">
+                    <div class="module-title">
+                        <p>ALL CATEGORIES</p>
+                    </div>
+                    <div class="accordion-menu">
+                        <div>Fiction</div>
+                        <div>Non-Fiction</div>
+                        <div>Books in Russian</div>
+                        <div>Books in English</div>
+                    </div>
+                </div>
+
+                <div class="module-product">
+                    <div class="module-product-single">
+                        <div class="module-product-wrapper">
+                            <div class="module-product-img">
+                                <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+
+                                <div class="quick-view">
+                                    <div class="action-view">
+                                        <i class="fa fa-search-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="product-flag">
+                                    <div class="sale">NEW</div>
+                                    <div class="discount-percentage">-5%</div>
+                                </div>
+                            </div>
+                            <div class="product-details">
+                                <div class="product-rating">
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product-name">
+                                    <p>100 Business secrets</p>
+                                </div>
+                                <div class="product-price">
+                                    <p>8900 AMD</p>
+                                </div>
+                            </div>
+                            <div class="product-link">
+                                <div class="product-button">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <p>Add to cart</p>
+                                </div>
+                                <div class="add-to-link">
+                                    <i class="fa fa-external-link"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container h-100 d-flex">
+                <div class="footer-area">
+                    <div class="footer-top">
+                        <div>Home</div>
+                        <div>Enable Cookies</div>
+                        <div>Privacy And Cookie Policy</div>
+                        <div>Contact Us</div>
+                        <div>Blog</div>
+                    </div>
+                    <div class="footer-mid">
+                        <div class="footer-mid-menu">
+                            <div class="single-footer">
+                                <h5>PRODUCTS</h5>
+                                <div class="footer-menu">
+                                    <div>About us</div>
+                                    <div>Prices drop</div>
+                                    <div>New products</div>
+                                    <div>Best sales</div>
+                                </div>
+                            </div>
+                            <div class="single-footer">
+                                <h5>OUR COMPANY</h5>
+                                <div class="footer-menu">
+                                    <div>Contact us</div>
+                                    <div>Sitemap</div>
+                                    <div>Stores</div>
+                                    <div>My account</div>
+                                </div>
+                            </div>
+                            <div class="single-footer">
+                                <h5>YOUR ACCOUNT</h5>
+                                <div class="footer-menu">
+                                    <div>Addresses</div>
+                                    <div>Credit slips</div>
+                                    <div>Orders</div>
+                                    <div>Personal info</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-footer-information">
+                            <h5>STORE INFORMATION</h5>
+                            <div class="footer-information">
+                                <p>
+                                    My Company<br />
+                                    42 avenue des Champs Elysées 75000 Paris France<br />
+                                    Call us now: (+1)866-540-3229<br />
+                                    Email: support@hastech.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>Copyright <a href="#">©Koparion</a>. All Right Reserved.</p>
+                        <img src="./images/banner-area/footer-img/1.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="scrollUp">
+            <i class="fa fa-angle-up"></i>
+        </div>
+
+        <script src="./script.js"></script>
+        <script src="./libs/owlcarousel/owl.carousel.min.js"></script>
+    </body>
+</html>

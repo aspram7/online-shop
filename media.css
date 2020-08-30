@@ -1,0 +1,714 @@
+@media only screen and (max-width: 1199px) {
+    /*----------------------bestseller-area---------------------------*/
+
+    .bestseller-content h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .bestseller-text p {
+        font-size: 15px;
+    }
+
+    /*----------------------banner-static-area-------------------------*/
+
+    .banner-book > img {
+        width: 58%;
+    }
+
+    .banner-book-price .book-price p {
+        font-size: 16px;
+    }
+
+    .banner-book-price .book-price h3 {
+        font-size: 20px;
+    }
+
+    .banner-book-shop-now {
+        margin-top: 45px;
+    }
+
+    .banner-book-price {
+        margin-top: 30px;
+    }
+
+    /*------------------------most-product-area---------------------------*/
+
+    .most-product-area .single-product-img {
+        width: 25%;
+    }
+
+    .most-product-area .single-product-content {
+        width: 75%;
+    }
+
+    .most-product-area .single-product-content > .product-name > p {
+        font-size: 15px;
+    }
+
+    .most-product-area .product-price .new-price {
+        font-size: 14px;
+    }
+
+    .most-product-area .block-newsletter-content h4 {
+        font-size: 17px;
+    }
+
+    /*-----------------------footer----------------------------*/
+
+    .single-footer {
+        padding-right: 70px;
+    }
+
+    .single-footer-information {
+        padding-left: 20px;
+    }
+
+    /*-----------------------my-account-------------------*/
+
+    .my-account-tab-menu {
+        width: 25%;
+    }
+
+    .my-account-tab-content {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /*------------------------mobile-menu-area-----------------*/
+    .mobile-menu-area {
+        display: block;
+    }
+
+    .menu-area {
+        display: none;
+    }
+
+    /*-------------------------banner-area------------------*/
+    .banner {
+        width: 100%;
+    }
+
+    /*----------------------banner-area-5--------------*/
+
+    .banner-general .banner-text h3 {
+        font-size: 18px;
+    }
+
+    .banner-general .banner-text h2 {
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    /*------------------bestseller-area-------------------*/
+
+    .bestseller-area .container {
+        display: block !important;
+    }
+
+    .bestseller-row {
+        width: 100%;
+    }
+
+    .banner-img {
+        margin: 0 0 0 30px;
+    }
+
+    .owl-carousel-3 {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .owl-carousel-3 .owl-nav button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .owl-carousel-3 .owl-nav button span {
+        font-size: 50px;
+    }
+
+    .owl-carousel-3:hover .owl-nav button.owl-prev {
+        left: -5px;
+    }
+
+    .owl-carousel-3:hover .owl-nav button.owl-next {
+        right: -5px;
+    }
+
+    .bestseller-area {
+        margin-bottom: 0;
+    }
+
+    /*----------------------banner-static-area-------------------*/
+
+    .banner-book > img {
+        width: 55%;
+    }
+
+    .banner-book-text > p {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .banner-book-text > h1 {
+        font-size: 27px;
+        line-height: 23px;
+    }
+
+    .banner-book-price {
+        margin-top: 10px;
+    }
+
+    .banner-book-price .book-price p {
+        font-size: 12px;
+    }
+
+    .banner-book-price .book-price h3 {
+        font-size: 15px;
+    }
+
+    .banner-book-price .book-sale > p {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .banner-book-shop-now {
+        margin-top: 35px;
+    }
+
+    .banner-book-shop-now > p {
+        font-size: 16px;
+    }
+
+    /*---------------------------most-product-area-------------------*/
+
+    .most-product-area .container {
+        display: block !important;
+    }
+
+    .most-product-area .product-row {
+        width: 100%;
+    }
+
+    .most-product-area .section-product-area {
+        padding-right: 0;
+        margin-right: 35px;
+    }
+
+    .most-product-area .section-product-area:last-child {
+        margin-right: 0;
+    }
+
+    .most-product-area .section-product-area {
+        width: 30%;
+    }
+
+    .most-product-area .product-price .new-price {
+        font-size: 14px;
+    }
+
+    .most-product-area .block-newsletter {
+        background: #f07c29 url(./images/banner-area/5.jpg) no-repeat scroll center top;
+        width: 100%;
+    }
+
+    .most-product-area .block-newsletter-content h4 {
+        font-size: 22px;
+    }
+
+    .most-product-area .block-newsletter-content {
+        padding: 45px 30px;
+    }
+
+    /*---------------------footer-----------*/
+
+    .footer-mid {
+        display: block;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .footer-mid-menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .single-footer {
+        padding-right: 100px;
+    }
+
+    .single-footer-information {
+        padding-left: 0;
+        margin-top: 40px;
+        width: auto;
+    }
+
+    /*-----------------------my-account-------------------*/
+
+    .my-account-tab-menu {
+        width: 33%;
+    }
+
+    .my-account-tab-content {
+        width: 67%;
+    }
+
+    /*------------------------login-----------------------*/
+
+    .login-form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /*---------------------------header-top-area-----------------*/
+
+    .header-top-area .row {
+        display: block;
+    }
+
+    .languages-div {
+        height: 50% !important;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .top-right-corner {
+        padding: 5px 0 15px;
+        width: fit-content;
+        margin: auto;
+    }
+
+    /*------------------------header-mid-area-------------------*/
+
+    .header-mid-area {
+        margin: 20px 0;
+    }
+
+    .header-mid-area .row {
+        display: block;
+    }
+
+    .header-mid-area .row .search-form {
+        margin: 20px auto;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+    .search-form > input {
+        width: 100%;
+        height: 42px;
+    }
+
+    .search-link {
+        width: 42px;
+        height: 42px;
+    }
+
+    .header-mid-area .row .main-logo {
+        margin: 30px 0 15px;
+        text-align: center;
+    }
+
+    .my-cart-sub {
+        justify-content: center;
+    }
+
+    .mini-cart-sub {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*--------------------banner-area-----------------------*/
+
+    .banner {
+        display: block;
+    }
+
+    .banner > div {
+        padding-bottom: 15px;
+    }
+
+    .banner > div:last-child {
+        padding-bottom: 0;
+    }
+
+    .banner > div > div > h4 {
+        font-size: 13px;
+    }
+    .banner > div > div > p {
+        font-size: 12px;
+    }
+
+    /*-------------------------product-area-----------------*/
+
+    .section-product > div > h1 {
+        font-size: 21px;
+    }
+
+    .section-product > div > p {
+        font-size: 15px;
+    }
+
+    /*-------------------------tab-content--------------------*/
+
+    .tab-content .owl-product .owl-prev,
+    .tab-content .owl-product .owl-next {
+        width: 50px;
+        height: 50px;
+    }
+
+    .tab-content .owl-product .owl-nav span {
+        font-size: 60px;
+        top: -29px;
+    }
+
+    /*-------------------------banner-area-5---------------------*/
+
+    .banner-area-5 {
+        margin: 30px 0 60px;
+    }
+
+    .banner-general .banner-image img {
+        height: 100px;
+    }
+    .banner-general .banner-text h3 {
+        font-size: 14px;
+    }
+
+    .banner-general .banner-text h2 {
+        font-size: 18px;
+    }
+
+    /*------------------------bestseller-row------------------------*/
+
+    .bestseller-row {
+        display: block;
+    }
+
+    .bestseller-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .bestseller-content > h4 {
+        margin-bottom: 30px;
+    }
+
+    .bestseller-content h1 {
+        font-size: 45px;
+    }
+
+    .bestseller-content h1,
+    .bestseller-content .categories,
+    .bestseller-content p,
+    .bestseller-content .social-author {
+        text-align: left;
+    }
+
+    .banner-img {
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+
+    .owl-carousel-3 {
+        padding: 0;
+    }
+
+    /*-------------------------banner-static-area---------------------*/
+
+    .banner-static-area {
+        padding: 60px 0;
+    }
+
+    .banner-shadow {
+        display: block;
+    }
+
+    .banner-shadow-hover {
+        width: 100%;
+    }
+
+    .banner-shadow-hover:first-child {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .banner-shadow-hover:last-child {
+        margin-left: 0;
+    }
+
+    .banner-book-text > p {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    .banner-book-text > h1 {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
+    .banner-book-price {
+        margin-top: 30px;
+    }
+
+    .banner-book-price .book-price p {
+        font-size: 17px;
+    }
+
+    .banner-book-price .book-price h3 {
+        font-size: 21px;
+    }
+
+    .banner-book-price .book-sale {
+        line-height: 48px;
+    }
+
+    .banner-book-price .book-sale > p {
+        font-size: 23px;
+        padding: 0 7px;
+    }
+
+    .banner-book-shop-now {
+        margin-top: 30px;
+    }
+
+    .banner-book-shop-now > p {
+        font-size: 20px;
+    }
+
+    /*-------------------------most-product-area-------------------*/
+
+    .product-row {
+        display: block;
+    }
+
+    .most-product-area .section-product-area {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .most-product-area .product-active {
+        margin-right: 80px;
+    }
+
+    .most-product-area .single-product {
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+    }
+
+    .most-product-area .single-product-img {
+        width: 30%;
+    }
+
+    .most-product-area .single-product-content > .product-name > p {
+        font-size: 18px;
+    }
+
+    .most-product-area .product-price .new-price {
+        font-size: 18px;
+    }
+
+    .most-product-area .product-price .old-price {
+        font-size: 15px;
+    }
+
+    /*-------------------------testimonial-area-------------------------*/
+
+    .single-testimonial-content > .testimonial-quote {
+        font-size: 17px;
+    }
+
+    .owl-carousel-5 .owl-dots {
+        bottom: 50px;
+    }
+
+    /*-------------------------recent-post-area-------------------------*/
+
+    .recent-post-area {
+        margin: 60px 0;
+    }
+
+    .post-section-title {
+        margin-bottom: 33px;
+    }
+
+    .post-section-title > h1 {
+        font-size: 21px;
+    }
+
+    /*--------------------------footer--------------------*/
+
+    .footer-top {
+        justify-content: center;
+    }
+
+    .footer-top > div {
+        border-right: none;
+        padding: 0;
+        margin: 0 5px;
+    }
+
+    .footer-mid-menu {
+        display: block;
+        text-align: center;
+    }
+
+    .single-footer {
+        border-right: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .single-footer-information {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-bottom p {
+        margin-bottom: 30px;
+    }
+
+    /*-----------------------my-account-------------------*/
+
+    .my-account-wrapper .container {
+        display: block !important;
+    }
+
+    .my-account-tab-menu {
+        width: 100%;
+    }
+
+    .my-account-tab-content {
+        width: 100%;
+        margin: 30px 0 0;
+    }
+
+    /*------------------------login-----------------------*/
+
+    .single-login-2 a {
+        padding: 10px 24px;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 319px) {
+    /*-----------------------slider-area-------------------*/
+
+    .slider-area .owl-carousel-1 .item-slide {
+        height: 400px;
+    }
+
+    .slider-area .owl-slider .owl-nav span {
+        font-size: 10px;
+    }
+
+    .slider-area .animation {
+        width: 100%;
+        right: 0;
+    }
+
+    .slider-area .animation > p {
+        font-size: 50px;
+    }
+
+    .slider-area .animation > button {
+        padding: 10px 25px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    /*--------------------product-area-----------------------*/
+
+    .section-product .product-menu {
+        flex-wrap: wrap;
+    }
+
+    .section-product .product-menu > div {
+        margin: 0 6px 10px;
+    }
+
+    /*-------------------banner-area-5-----------------------*/
+
+    .banner-general .banner-text h3 {
+        font-size: 13px;
+    }
+
+    /*-------------------banner-static-area-------------------*/
+
+    .banner-book > img {
+        width: 50%;
+    }
+
+    .banner-book-text > p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+    .banner-book-text > h1 {
+        font-size: 27px;
+        line-height: 20px;
+    }
+
+    .banner-book-price {
+        margin-top: 22px;
+    }
+
+    .banner-book-price .book-price p {
+        font-size: 12px;
+    }
+
+    .banner-book-price .book-price h3 {
+        font-size: 14px;
+    }
+
+    .banner-book-price .book-sale {
+        line-height: 28px;
+    }
+
+    .banner-book-price .book-sale > p {
+        font-size: 15px;
+        padding: 0 3px;
+    }
+
+    .banner-book-shop-now {
+        margin-top: 20px;
+    }
+
+    .banner-book-shop-now > p {
+        font-size: 13px;
+    }
+
+    /*---------------------most-product-area---------------------*/
+
+    .most-product-area .single-product-content > .product-name > p {
+        font-size: 15px;
+    }
+
+    .most-product-area .product-price .new-price {
+        font-size: 13px;
+    }
+
+    .most-product-area .product-price .old-price {
+        font-size: 11px;
+    }
+
+    /*----------------------testimonial-area-------------------*/
+
+    .single-testimonial-area {
+        padding: 70px 0 90px;
+    }
+
+    /*----------------------footer-------------------*/
+
+    .footer-bottom img {
+        width: 100%;
+    }
+}
