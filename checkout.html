@@ -285,31 +285,183 @@
             <div class="container h-100 d-flex">
                 <div class="my-account-menu">
                     <p class="breadcrumbs-menu" onclick="func('index.html')">Home</p>
-                    <p class="breadcrumbs-menu-active">login</p>
+                    <p class="breadcrumbs-menu-active">checkout</p>
                 </div>
             </div>
         </div>
 
-        <div class="user-login-area">
+        <div class="checkout-area">
             <div class="container h-100 d-flex">
-                <div class="login-title">
-                    <h2>Login</h2>
-                </div>
-                <div class="login-form">
-                    <div class="single-login">
-                        <p>Username or email *</p>
-                        <input type="text" />
+                <div class="checkbox-order">
+                    <div class="checkbox-form">
+                        <h3>BILLING DETAILS</h3>
+                        <div class="country-select">
+                            <label>
+                                Country
+                                <span class="required"> *</span>
+                            </label>
+                            <select>
+                                <option value="Armenia">Armenia</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Russia">Russia</option>
+                                <option value="France">France</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Italia">Italia</option>
+                                <option value="Greece">Greece</option>
+                            </select>
+                        </div>
+                        <div class="checkout-form-lists">
+                            <div class="checkout-form-list first">
+                                <label>
+                                    First Name
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" />
+                            </div>
+                            <div class="checkout-form-list second">
+                                <label>
+                                    Last Name
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <div class="checkout-form-company-name">
+                            <label> Company Name </label>
+                            <input type="text" />
+                        </div>
+                        <div class="checkout-form-address">
+                            <label>
+                                Address
+                                <span class="required">*</span>
+                            </label>
+                            <input type="text" placeholder="Street address" />
+                            <input type="text" placeholder="Apartment, suite, unit ect.(optional)" />
+                        </div>
+                        <div class="checkout-form-address">
+                            <label>
+                                Town / City
+                                <span class="required">*</span>
+                            </label>
+                            <input type="text" placeholder="Town / City" />
+                        </div>
+                        <div class="checkout-form-lists">
+                            <div class="checkout-form-list first">
+                                <label>
+                                    State / County
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" />
+                            </div>
+                            <div class="checkout-form-list second">
+                                <label>
+                                    Postcode / Zip
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <div class="checkout-form-lists">
+                            <div class="checkout-form-list first">
+                                <label>
+                                    Email Address
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" />
+                            </div>
+                            <div class="checkout-form-list second">
+                                <label>
+                                    Phone
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <div class="create-account">
+                            <input type="checkbox" id="cbox" />
+                            <label>Create an account?</label>
+                        </div>
+                        <div class="create-account-form">
+                            <p>
+                                Create an account by entering the information below. If you are a returning customer please login at the top
+                                of the page.
+                            </p>
+                            <div class="checkout-form-create-account">
+                                <label>
+                                    Account password
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="password" placeholder="password" />
+                            </div>
+                        </div>
+                        <div class="order-notes">
+                            <div class="checkout-form-address">
+                                <label> Order Notes </label>
+                                <textarea placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+                            </div>
+                        </div>
                     </div>
-                    <div class="single-login">
-                        <p>Passwords *</p>
-                        <input type="text" />
+                    <div class="your-order">
+                        <h3>YOUR ORDER</h3>
+                        <div class="your-order-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="product-table-name">PRODUCT</th>
+                                        <th class="product-table-total">TOTAL</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="cart-item">
+                                        <td class="product-table-name">
+                                            Vestibulum suscipit
+                                            <strong class="product-quantity">× 1</strong>
+                                        </td>
+                                        <td class="product-table-total">
+                                            <span class="amount">£165.00</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="cart-item">
+                                        <td class="product-table-name">
+                                            Vestibulum suscipit
+                                            <strong class="product-quantity">× 1</strong>
+                                        </td>
+                                        <td class="product-table-total">
+                                            <span class="amount">£165.00</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr class="cart-subtotal">
+                                        <th>CART SUBTOTAL</th>
+                                        <td>
+                                            <span class="amunt">£165.00</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="shipping">
+                                        <th>SHIPPING</th>
+                                        <td>
+                                            <input type="radio" id="flat-rate" value="flat-rate" name="shipping-radio" />
+                                            <label for="flat-rate">Flat Rate: <span class="amount">£7.00</span> </label>
+                                        </br>
+                                            <input type="radio" id="free-shipping" value="free-shipping" name="shipping-radio" />
+                                            <label for="free-shipping">Free Shipping</label>
+                                        </td>
+                                    </tr>
+                                    <tr class="order-total">
+                                        <th>ORDER TOTAL</th>
+                                        <td>
+                                            <span class="amount">£165.00</span>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="order-button-payment">
+                            <input type="submit" value="place order" />
+                        </div>
                     </div>
-                    <div class="single-login single-login-2">
-                        <a href="">Login</a>
-                        <input type="checkbox" />
-                        <span>Remember Me</span>
-                    </div>
-                    <a href="">Lost your password?</a>
                 </div>
             </div>
         </div>

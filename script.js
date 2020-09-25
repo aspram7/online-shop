@@ -36,6 +36,7 @@ $(document).ready(function () {
         nav: true,
         smartSpeed: 1000,
         margin: 15,
+        responsiveBaseElement: "body",
         responsive: {
             0: {
                 items: 1,
@@ -134,7 +135,12 @@ $(document).ready(function () {
     });
 
     $(".action-view").click(function () {
-        $(".modal").modal();
+        $("#myModal").modal("show");
+    });
+
+    $("#cbox").click(function () {
+        $(".create-account-form").toggleClass("change");
+        $(".create-account-form").slideToggle("slow");
     });
 });
 

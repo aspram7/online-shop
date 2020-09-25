@@ -53,11 +53,14 @@
                             </div>
                         </div>
                         <div class="top-right-corner">
-                            <div class="my-account">
-                                <a href="my-account.html">My Account</a>
+                            <div class="my-account" onclick="func('my-account.html')">
+                                <p>My Account</p>
                             </div>
-                            <div class="sign-in">
-                                <a href="login.html">Sign In</a>
+                            <div class="checkout" onclick="func('checkout.html')">
+                                <p>Checkout</p>
+                            </div>
+                            <div class="sign-in" onclick="func('login.html')">
+                                <p>Sign In</p>
                             </div>
                         </div>
                     </div>
@@ -106,8 +109,11 @@
                                         <h5>total</h5>
                                         <p>5900 AMD</p>
                                     </div>
-                                    <div class="cart-button">
-                                        <a href="">view cart</a>
+                                    <div class="cart-button" onclick="func('my-cart.html')">
+                                        <p>view cart</p>
+                                    </div>
+                                    <div class="checkout-button" onclick="func('checkout.html')">
+                                        <p>checkout</p>
                                     </div>
                                 </div>
                             </div>
@@ -121,12 +127,12 @@
             <div class="container h-100 d-flex">
                 <div class="menu">
                     <div class="menu-items active-menu-item">
-                        <div class="menu-items-sub" onclick="funcHome()">
+                        <div class="menu-items-sub" onclick="func('index.html')">
                             <p>HOME</p>
                         </div>
                     </div>
                     <div class="menu-items books">
-                        <div class="menu-items-sub" onclick="func()">
+                        <div class="menu-items-sub" onclick="func('books.html')">
                             <p>BOOKS</p>
                             <i class="fa fa-angle-down"></i>
                         </div>
@@ -137,18 +143,32 @@
                             <div>Books in English</div>
                         </div>
                     </div>
-                    <div class="menu-items">
-                        <div class="menu-items-sub" onclick="func()">
+                    <div class="menu-items ebooks">
+                        <div class="menu-items-sub" onclick="func('ebooks.html')">
                             <p>eBOOKS</p>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div>Fiction</div>
+                            <div>Non-Fiction</div>
+                            <div>Books in Russian</div>
+                            <div>Books in English</div>
                         </div>
                     </div>
-                    <div class="menu-items">
-                        <div class="menu-items-sub" onclick="func()">
+                    <div class="menu-items audiobooks">
+                        <div class="menu-items-sub" onclick="func('audiobooks.html')">
                             <p>AUDIO BOOKS</p>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <div class="submenu">
+                            <div>Fiction</div>
+                            <div>Non-Fiction</div>
+                            <div>Books in Russian</div>
+                            <div>Books in English</div>
                         </div>
                     </div>
                     <div class="menu-items blog">
-                        <div class="menu-items-sub" onclick="func()">
+                        <div class="menu-items-sub" onclick="func('blog.html')">
                             <p>BLOG</p>
                             <i class="fa fa-angle-down"></i>
                         </div>
@@ -158,7 +178,7 @@
                         </div>
                     </div>
                     <div class="menu-items gift">
-                        <div class="menu-items-sub" onclick="func()">
+                        <div class="menu-items-sub" onclick="func('gift.html')">
                             <p>GIFT</p>
                             <i class="fa fa-angle-down"></i>
                         </div>
@@ -168,7 +188,7 @@
                         </div>
                     </div>
                     <div class="menu-items sale">
-                        <div class="menu-items-sub" onclick="func()">
+                        <div class="menu-items-sub" onclick="func('sale.html')">
                             <p>SALE</p>
                             <i class="fa fa-angle-down"></i>
                         </div>
@@ -197,12 +217,12 @@
                     <div class="mean-nav">
                         <div class="menu-hamburger-nav">
                             <div class="menu-items-mobile">
-                                <div class="menu-items-mobile-nav">
+                                <div class="menu-items-mobile-nav" onclick="func('index.html')">
                                     <p class="a">HOME</p>
                                 </div>
                             </div>
                             <div class="menu-items-mobile books">
-                                <div class="menu-items-mobile-nav">
+                                <div class="menu-items-mobile-nav" onclick="func('books.html')">
                                     <p>BOOKS</p>
                                     <span class="menu-items-toggle books"></span>
                                 </div>
@@ -214,17 +234,17 @@
                                 </div>
                             </div>
                             <div class="menu-items-mobile">
-                                <div class="menu-items-mobile-nav">
+                                <div class="menu-items-mobile-nav" onclick="func('ebooks.html')">
                                     <p>eBOOKS</p>
                                 </div>
                             </div>
                             <div class="menu-items-mobile">
-                                <div class="menu-items-mobile-nav">
+                                <div class="menu-items-mobile-nav" onclick="func('audiobooks.html')">
                                     <p>AUDIO BOOKS</p>
                                 </div>
                             </div>
                             <div class="menu-items-mobile blog">
-                                <div class="menu-items-mobile-nav">
+                                <div class="menu-items-mobile-nav" onclick="func('blog.html')">
                                     <p>BLOG</p>
                                     <span class="menu-items-toggle blog"></span>
                                 </div>
@@ -234,7 +254,7 @@
                                 </div>
                             </div>
                             <div class="menu-items-mobile gift">
-                                <div class="menu-items-mobile-nav">
+                                <div class="menu-items-mobile-nav" onclick="func('gift.html')">
                                     <p>GIFT</p>
                                     <span class="menu-items-toggle gift"></span>
                                 </div>
@@ -244,7 +264,7 @@
                                 </div>
                             </div>
                             <div class="menu-items-mobile sale">
-                                <div class="menu-items-mobile-nav">
+                                <div class="menu-items-mobile-nav" onclick="func('sale.html')">
                                     <p>SALE</p>
                                     <span class="menu-items-toggle sale"></span>
                                 </div>
@@ -261,97 +281,85 @@
             </div>
         </div>
 
-        <div class="my-account-login-area">
+        <div class="my-account-area">
             <div class="container h-100 d-flex">
-                <div class="my-account-menu">books</div>
+                <div class="my-account-menu">
+                    <p class="breadcrumbs-menu" onclick="func('index.html')">Home</p>
+                    <p class="breadcrumbs-menu-active">ebooks</p>
+                </div>
             </div>
         </div>
 
         <div class="product-main-area">
             <div class="container h-100 d-flex">
-                <div class="module-categories">
-                    <div class="module-title">
-                        <p>ALL CATEGORIES</p>
+                <div class="books-main-content">
+                    <div class="module-categories">
+                        <div class="module-title">
+                            <p>ALL CATEGORIES</p>
+                        </div>
+                        <div class="accordion-menu">
+                            <div>Fiction</div>
+                            <div>Non-Fiction</div>
+                            <div>Books in Russian</div>
+                            <div>Books in English</div>
+                        </div>
                     </div>
-                    <div class="accordion-menu">
-                        <div>Fiction</div>
-                        <div>Non-Fiction</div>
-                        <div>Books in Russian</div>
-                        <div>Books in English</div>
-                    </div>
-                </div>
 
-                <div class="module-product">
-                    <div class="module-product-single">
-                        <div class="module-product-wrapper">
-                            <div class="module-product-img">
-                                <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
+                    <div class="module-product">
+                        <div class="module-product-single">
+                            <div class="module-product-wrapper">
+                                <div class="module-product-img">
+                                    <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
 
-                                <div class="quick-view">
-                                    <div class="action-view">
-                                        <i class="fa fa-search-plus"></i>
+                                    <div class="quick-view">
+                                        <div class="action-view">
+                                            <i class="fa fa-search-plus"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-flag">
+                                        <div class="sale">NEW</div>
+                                        <div class="discount-percentage">-5%</div>
                                     </div>
                                 </div>
-                                <div class="product-flag">
-                                    <div class="sale">NEW</div>
-                                    <div class="discount-percentage">-5%</div>
+                                <div class="product-details">
+                                    <div class="product-rating">
+                                        <ul>
+                                            <li>
+                                                <i class="fa fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-star"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-name">
+                                        <p>100 Business secrets</p>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>6900 AMD</span>
+                                        <span class="old-price">8900 AMD</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="product-details">
-                                <div class="product-rating">
-                                    <ul>
-                                        <li>
-                                            <i class="fa fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="product-name">
-                                    <p>100 Business secrets</p>
-                                </div>
-                                <div class="product-price">
-                                    <p>8900 AMD</p>
-                                </div>
-                            </div>
-                            <div class="product-link">
-                                <div class="product-button">
-                                    <i class="fa fa-shopping-cart"></i>
-                                    <p>Add to cart</p>
-                                </div>
-                                <div class="add-to-link">
-                                    <i class="fa fa-external-link"></i>
+                                <div class="product-link">
+                                    <div class="product-button">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <p>Add to cart</p>
+                                    </div>
+                                    <div class="add-to-link">
+                                        <i class="fa fa-external-link"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
-                    </div>
-                    <div>
-                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
-                    </div>
-                    <div>
-                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
-                    </div>
-                    <div>
-                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
-                    </div>
-                    <div>
-                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
-                    </div>
-                    <div>
-                        <img src="./images/items/Zgushaceq_Samvelyan-1000x1000.jpg" alt="" />
                     </div>
                 </div>
             </div>

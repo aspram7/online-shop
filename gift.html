@@ -7,10 +7,11 @@
         <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/css/all.css" />
         <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="media.css" />
     </head>
@@ -285,31 +286,51 @@
             <div class="container h-100 d-flex">
                 <div class="my-account-menu">
                     <p class="breadcrumbs-menu" onclick="func('index.html')">Home</p>
-                    <p class="breadcrumbs-menu-active">login</p>
+                    <p class="breadcrumbs-menu-active">gift</p>
                 </div>
             </div>
         </div>
 
-        <div class="user-login-area">
+        <div class="product-main-area">
             <div class="container h-100 d-flex">
-                <div class="login-title">
-                    <h2>Login</h2>
-                </div>
-                <div class="login-form">
-                    <div class="single-login">
-                        <p>Username or email *</p>
-                        <input type="text" />
+                <div class="books-main-content">
+                    <div class="module-categories">
+                        <div class="module-title">
+                            <p>ALL CATEGORIES</p>
+                        </div>
+                        <div class="accordion-menu">
+                            <div onclick="func('gift.html')">Gift Card</div>
+                            <div onclick="func('creativeGift.html')">Creative Gift</div>
+                        </div>
                     </div>
-                    <div class="single-login">
-                        <p>Passwords *</p>
-                        <input type="text" />
+                    <div class="module-product">
+                        <div class="gift-page-content-main">
+                            <div class="gift-page-content">
+                                <h1>ONLINE GIFT CARD</h1>
+                                <h3>BOOK/SHOP</h3>
+                                <select name="" id="">
+                                    <option value="0">1 000 AMD</option>
+                                    <option value="0">2 000 AMD</option>
+                                    <option value="0">3 000 AMD</option>
+                                    <option value="0">4 000 AMD</option>
+                                    <option value="0">5 000 AMD</option>
+                                    <option value="0">6 000 AMD</option>
+                                    <option value="0">7 000 AMD</option>
+                                    <option value="0">8 000 AMD</option>
+                                    <option value="0">9 000 AMD</option>
+                                    <option value="0">10 000 AMD</option>
+                                    <option value="0">15 000 AMD</option>
+                                    <option value="0">20 000 AMD</option>
+                                </select>
+                                <p>Quantity</p>
+                                <input type="number" min="1" value="1" />
+                                <button>Add To Cart</button>
+                            </div>
+                            <div class="image-container">
+                                <img src="./images/gift/1.jpg" alt="" />
+                            </div>
+                        </div>
                     </div>
-                    <div class="single-login single-login-2">
-                        <a href="">Login</a>
-                        <input type="checkbox" />
-                        <span>Remember Me</span>
-                    </div>
-                    <a href="">Lost your password?</a>
                 </div>
             </div>
         </div>
@@ -374,11 +395,67 @@
             </div>
         </footer>
 
+        <div class="modal fade" id="myModal" aria-hidden="true" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">X</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-tab">
+                            <div class="product-details-large">
+                                <div class="tab-pane">
+                                    <img src="./images/items/Mantashyants-in-Armenian-1000x1000.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-pro-content">
+                            <h3>the king of the caucasus (in armenian)</h3>
+                            <div class="modal-pro-content-price">
+                                <p>7,700 AMD</p>
+                            </div>
+                            <p>
+                                <i
+                                    >Alexander Mantashyants, oil magnate and philanthropist, with whom reckoned the powerful men of the
+                                    time: Baron Edmond de Rothschild, Alfred Nobel, Calouste Gulbenkian, and others.</i
+                                >
+                                <br />
+                                <br />
+                                The book is about the life and work of one of the richest and happiest people of the late 19th and early
+                                20th centuries, oil and financial magnate, father of a large family, benefactor Alexander Mantashyants.
+                                Having played an invaluable role in the development of the oil industry in the Russian Empire, he was also
+                                known for his pro-Armenian activities. The topic is presented by merging documentary and fiction genres,
+                                which makes reading more interesting.
+                                <br />
+                                <br />
+                                The beginning of the 20th century was difficult and chaotic for Armenians. On the one hand, the endless
+                                trials and struggle for survival that would have had a bad ending at the beginning of the same century, and
+                                on the other hand, many Armenians, who, having paved their way with difficulty through long years, had
+                                reached their peak both financially and intellectually at the turn of the century. The characters of this
+                                book are from such a controversial era, and it was Alexander Mantashyants, “the King of the Caucasus”, who
+                                was able to unite them around him on an ideological and business basis. To be a king in a place and at a
+                                time when the highest title is the vicegerent of the empire is almost impossible. But not for
+                                Mantashyants... Because the guarantee of his victory was not money or personal happiness but using that very
+                                money to serve his nation, noble ideas and purposes.
+                            </p>
+                            <div class="quick-view-select">
+                                <input type="number" value="1" />
+                                <button>Add To Cart</button>
+                            </div>
+                            <span>
+                                <i class="fa fa-check"></i>
+                                <p>In stock</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="scrollUp">
             <i class="fa fa-angle-up"></i>
         </div>
 
         <script src="./script.js"></script>
-        <script src="./libs/owlcarousel/owl.carousel.min.js"></script>
     </body>
 </html>

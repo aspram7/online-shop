@@ -73,6 +73,42 @@
     .my-account-tab-content {
         width: 75%;
     }
+
+    /*------------------------------books------------------------*/
+
+    .module-categories {
+        width: 20%;
+    }
+
+    .module-product {
+        width: 80%;
+    }
+
+    .module-product .product-price > span {
+        font-size: 18px;
+    }
+
+    .module-product .product-price .old-price {
+        font-size: 16px;
+    }
+
+    /*---------------------------------gift------------------------*/
+
+    .gift-page-content {
+        padding-left: 20px;
+    }
+
+    .gift-page-content > h1 {
+        font-size: 25px;
+    }
+
+    .gift-page-content > h3 {
+        font-size: 20px;
+    }
+
+    .gift-page-content > button {
+        margin-left: 25px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -88,6 +124,31 @@
     /*-------------------------banner-area------------------*/
     .banner {
         width: 100%;
+    }
+
+    /*----------------------tab-content-----------------*/
+
+    .tab-content .owl-product .owl-prev,
+    .tab-content .owl-product .owl-next {
+        height: 40px;
+        width: 40px;
+    }
+
+    .tab-content .owl-product .owl-nav span {
+        font-size: 50px;
+        top: -25px;
+    }
+
+    .product-name > p {
+        font-size: 16px;
+    }
+
+    .product-price p {
+        font-size: 18px;
+    }
+
+    .product-link p {
+        font-size: 15px;
     }
 
     /*----------------------banner-area-5--------------*/
@@ -258,6 +319,86 @@
     /*------------------------login-----------------------*/
 
     .login-form {
+        width: 100%;
+    }
+
+    /*--------------------modal fade-----------------*/
+
+    .modal-dialog {
+        width: 750px;
+        margin: 100px auto 0;
+    }
+
+    .modal {
+        overflow-y: auto !important;
+    }
+
+    /*------------------------------books------------------------*/
+
+    .module-categories {
+        width: 25%;
+    }
+
+    .module-product {
+        width: 75%;
+    }
+
+    .module-product-single {
+        width: 33%;
+    }
+
+    .module-product .product-price > span {
+        font-size: 16px;
+    }
+
+    .module-product .product-price .old-price {
+        font-size: 14px;
+    }
+
+    /*---------------------------------gift------------------------*/
+
+    .gift-page-content {
+        padding-left: 20px;
+    }
+
+    .gift-page-content {
+        width: 50%;
+    }
+
+    .gift-page-content > h1 {
+        font-size: 23px;
+    }
+
+    .gift-page-content > h3 {
+        font-size: 18px;
+    }
+
+    .gift-page-content > input {
+        display: block;
+    }
+
+    .gift-page-content > button {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .image-container {
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    /*--------------------------------------checkout-----------------------------*/
+
+    .checkbox-order {
+        display: block;
+    }
+
+    .checkbox-form {
+        width: 100%;
+    }
+
+    .your-order {
+        margin-left: 0;
         width: 100%;
     }
 }
@@ -577,6 +718,32 @@
         margin-bottom: 30px;
     }
 
+    /*--------------------modal fade-----------------*/
+
+    .modal-dialog {
+        width: 100%;
+    }
+
+    .quick-view-select > button {
+        margin-left: 25px;
+    }
+
+    .modal-pro-content h3 {
+        font-size: 30px;
+    }
+
+    .modal-pro-content-price {
+        margin-top: 10px;
+    }
+
+    .modal-pro-content-price > p {
+        font-size: 25px;
+    }
+
+    .modal-pro-content > p {
+        margin-top: 10px;
+    }
+
     /*-----------------------my-account-------------------*/
 
     .my-account-wrapper .container {
@@ -596,6 +763,177 @@
 
     .single-login-2 a {
         padding: 10px 24px;
+    }
+
+    /*-------------------------------------------------------------audio books------------------------------------------*/
+
+    .my-account-area {
+        margin-bottom: 30px;
+    }
+
+    .product-info-area {
+        display: block;
+    }
+
+    .elementor-widget-wrap {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .elementor-image {
+        width: 100%;
+    }
+
+    .elementor-widget-wrap > h3,
+    .elementor-widget-wrap > p {
+        padding: 10px 0;
+    }
+
+    .elementor-widget-wrap > h1 {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .elementor-widget-wrap > h3 {
+        font-size: 27px;
+    }
+    .elementor-widget-wrap > p {
+        font-size: 14px;
+    }
+
+    /*------------------------------books------------------------*/
+
+    .module-categories {
+        width: 30%;
+    }
+
+    .module-product {
+        width: 70%;
+    }
+
+    .module-product-single {
+        width: 50%;
+    }
+
+    .module-title > p {
+        font-size: 15px;
+    }
+
+    .accordion-menu > div {
+        font-size: 16px;
+    }
+
+    /*---------------------------------gift------------------------*/
+
+    .gift-page-content-main {
+        display: block;
+    }
+
+    .gift-page-content {
+        padding-left: 20px;
+    }
+
+    .gift-page-content {
+        width: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+
+    /*--------------------------------------checkout-----------------------------*/
+
+    .checkout-form-lists {
+        display: block;
+    }
+
+    .checkout-form-list {
+        width: 100%;
+    }
+
+    .checkout-form-list.first {
+        padding-right: 0;
+    }
+
+    .checkout-form-list.second {
+        padding-left: 0;
+    }
+
+    .your-order {
+        padding: 30px 20px 45px;
+    }
+
+    /*------------------------------------------cart-------------------------------------*/
+
+    .buttons-cart {
+        display: block;
+    }
+
+    .coupon {
+        width: 100%;
+    }
+
+    .cart_totals {
+        text-align: left;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .coupon input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .coupon a {
+        margin: 10px 0 0 0;
+    }
+
+    .table-content {
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 576px) {
+    /*--------------------modal fade-----------------*/
+
+    .modal-body {
+        display: block;
+    }
+
+    .modal-tab {
+        width: 100%;
+    }
+
+    .modal-pro-content {
+        margin: 40px auto;
+        width: 100%;
+    }
+
+    /*------------------------------books------------------------*/
+
+    .module-categories {
+        width: 35%;
+    }
+
+    .module-product {
+        width: 65%;
+    }
+
+    .module-product-single {
+        width: 100%;
+    }
+
+    /*------------------------------------------creative gift------------------------------*/
+    .module-product .product-price > span {
+        font-size: 18px;
+    }
+
+    .module-product .product-price .old-price {
+        font-size: 16px;
     }
 }
 
@@ -710,5 +1048,65 @@
 
     .footer-bottom img {
         width: 100%;
+    }
+
+    /*--------------------modal fade-----------------*/
+
+    .modal-dialog {
+        margin: 80px auto -20px;
+    }
+
+    .modal-body {
+        padding: 30px 20px;
+    }
+
+    .modal-pro-content h3 {
+        font-size: 27px;
+    }
+
+    .modal-pro-content-price > p {
+        font-size: 23px;
+    }
+
+    /*------------------------------books------------------------*/
+
+    .books-main-content {
+        display: block;
+    }
+
+    .module-product {
+        margin-left: 0;
+    }
+
+    .module-categories {
+        width: 100%;
+    }
+
+    .module-product {
+        width: 100%;
+    }
+
+    .module-product-single {
+        width: 100%;
+    }
+
+    /*---------------------------------gift------------------------*/
+
+    .gift-page-content-main {
+        display: block;
+    }
+
+    .gift-page-content {
+        padding-left: 0;
+    }
+
+    .gift-page-content {
+        width: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 30px;
     }
 }
